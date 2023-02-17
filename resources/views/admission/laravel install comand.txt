@@ -1,0 +1,20 @@
+laravel install comand
+
+composer method
+
+1 project directry
+
+ cd c:projects\laravel
+ 
+ c:\projects\laravel>composer create-project laravel/laravel myapp
+ 
+ laravel  installer
+ 
+ c:\projects\laravel>composer global require laravel/installer
+ 
+ c:\projects\laravel>laravel new mynewapp
+ 
+ git push comand
+ 
+ 
+ 

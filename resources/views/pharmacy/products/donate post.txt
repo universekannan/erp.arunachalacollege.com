@@ -1,0 +1,273 @@
+ <div class="form-group col-md-6">
+            <label for="area_name"></label>
+            <select id="area_name" class="form-control">
+            <option selected>Postarea Name</option>  
+                                                         <option>Adaikkakuzhi</option>
+							 							  <option>Agasteeswaram</option>
+							 							  <option>Alagiamandapam</option>
+							 							  <option>Alampara</option>
+							 							  <option>Alanchi</option>
+							 							  <option>Alancholai</option>
+							 							  <option>Alancode</option>
+							 							  <option>Aloor</option>
+							 							  <option>Ammandivilai</option>
+							 							  <option>Anandanadarkudy</option>
+							 							  <option>Andirapuram</option>
+							 							  <option>Anducode</option>
+							 							  <option>Anjugramam</option>
+							 							  <option>Aralvaymoli</option>
+							 							  <option>Arukani</option>
+							 							  <option>Arumanai</option>
+							 							  <option>Arumanallur</option>
+							 							  <option>Aruvikkarai</option>
+							 							  <option>Asaripallam</option>
+							 							  <option>Asiramam</option>
+							 							  <option>Attur</option>
+							 							  <option>Azhakamparai</option>
+							 							  <option>Azhakappapuram</option>
+							 							  <option>Azhakiapandipuram</option>
+							 							  <option>Azhikkal</option>
+							 							  <option>Bethelpuram</option>
+							 							  <option>Bhoothapandy</option>
+							 							  <option>Catherin Booth hospital</option>
+							 							  <option>Chathancode</option>
+							 							  <option>Chemparuthivilai</option>
+							 							  <option>Chemponvilai</option>
+							 							  <option>Chenbagaramanputhur</option>
+							 							  <option>Chenkody</option>
+							 							  <option>Cherupallur</option>
+							 							  <option>Cheruvallur</option>
+							 							  <option>Chitharal</option>
+							 							  <option>Chittardam Colony</option>
+							 							  <option>Chunkankadai</option>
+							 							  <option>Colachel</option>
+							 							  <option>Colachel Port</option>
+							 							  <option>Derisanamcope</option>
+							 							  <option>Devakulam</option>
+							 							  <option>Eathamozhi</option>
+							 							  <option>Edalakudy</option>
+							 							  <option>Elavuvilai</option>
+							 							  <option>Enayam</option>
+							 							  <option>Enayamputhenthurai</option>
+							 							  <option>Erachakulam</option>
+							 							  <option>Eravipudurkadai</option>
+							 							  <option>Eraviputhur</option>
+							 							  <option>Erumbukadu</option>
+							 							  <option>Fathima Nagar</option>
+							 							  <option>Friday Market</option>
+							 							  <option>Ganapathipuram</option>
+							 							  <option>Gnaramvilai</option>
+							 							  <option>Idaikkode</option>
+							 							  <option>Ilanchirai</option>
+							 							  <option>Irenipuram</option>
+							 							  <option>Irulappapuram</option>
+							 							  <option>Isanthimangalam</option>
+							 							  <option>James Town</option>
+							 							  <option>Kadiyapattanam</option>
+							 							  <option>Kadukkarai</option>
+							 							  <option>Kaliakkavilai</option>
+							 							  <option>Kaliyal</option>
+							 							  <option>Kallankuzhi</option>
+							 							  <option>Kallukoottam</option>
+							 							  <option>Kalpadi</option>
+							 							  <option>Kandanvilai</option>
+							 							  <option>Kaniyakulam</option>
+							 							  <option>Kanjampuram</option>
+							 							  <option>Kanjikuzhi</option>
+							 							  <option>Kanjiracode</option>
+							 							  <option>Kannanore</option>
+							 							  <option>Kannattuvilai</option>
+							 							  <option>Kanniyakumari</option>
+							 							  <option>Kannumamoodu</option>
+							 							  <option>Kappiyarai</option>
+							 							  <option>Kappukadu</option>
+							 							  <option>Karankad</option>
+							 							  <option>Karinkal</option>
+							 							  <option>Karod</option>
+							 							  <option>Kattathurai</option>
+							 							  <option>Kattimancode</option>
+							 							  <option>Keeriparai</option>
+							 							  <option>Keezhkulam</option>
+							 							  <option>Keralapuram</option>
+							 							  <option>Kesavanputhenthurai</option>
+							 							  <option>Killiyoor</option>
+							 							  <option>Kirathur</option>
+							 							  <option>Kodayarkilthangal</option>
+							 							  <option>Kodimunai</option>
+							 							  <option>Kollangodu</option>
+							 							  <option>Konamkadu</option>
+							 							  <option>kottar</option>
+							 							  <option>Kottaram</option>
+							 							  <option>Kovalam</option>
+							 							  <option>Kozhiporvilai</option>
+							 							  <option>Krishnancoil</option>
+							 							  <option>Kulapuram</option>
+							 							  <option>Kulasekharam</option>
+							 							  <option>Kulasekharapuram</option>
+							 							  <option>Kumaracoil</option>
+							 							  <option>Kumarapuram</option>
+							 							  <option>Kumarapuramthoppur</option>
+							 							  <option>Kurumpanai</option>
+							 							  <option>Kurunthencode</option>
+							 							  <option>Kuzhicode</option>
+							 							  <option>Kuzhithurai</option>
+							 							  <option>Kuzhithurai West</option>
+							 							  <option>Leepuram</option>
+							 							  <option>Lekshmipuram</option>
+							 							  <option>Madathattuvilai</option>
+							 							  <option>Madavalayam</option>
+							 							  <option>Madichel</option>
+							 							  <option>Mahadanapuram</option>
+							 							  <option>Malamary</option>
+							 							  <option>Malayadi</option>
+							 							  <option>Manakarai</option>
+							 							  <option>Manalikarai</option>
+							 							  <option>Manalodai</option>
+							 							  <option>Manavalakurichi</option>
+							 							  <option>Mancode</option>
+							 							  <option>Mangalakunnu</option>
+							 							  <option>Mangarai</option>
+							 							  <option>Mangavilai</option>
+							 							  <option>Maniankuzhi</option>
+							 							  <option>Manivilai</option>
+							 							  <option>Manjalumoodu</option>
+							 							  <option>Maramalai</option>
+							 							  <option>Maravankudiyiruppu</option>
+							 							  <option>Marthandam</option>
+							 							  <option>Marthandam Bridge</option>
+							 							  <option>Marthandam North</option>
+							 							  <option>Marthandamthurai</option>
+							 							  <option>Marungoor</option>
+							 							  <option>Maruthemparai</option>
+							 							  <option>Maruthencode</option>
+							 							  <option>Maruthurkurichi</option>
+							 							  <option>Mathiasnagar</option>
+							 							  <option>Mayiladi</option>
+							 							  <option>Meenachel</option>
+							 							  <option>Mekkamandapam</option>
+							 							  <option>Mekkode</option>
+							 							  <option>Melakrishnanputhur</option>
+							 							  <option>Melamanakudy</option>
+							 							  <option>Meppala</option>
+							 							  <option>Methukummal</option>
+							 							  <option>Mettukadai</option>
+							 							  <option>Mondaikad</option>
+							 							  <option>Monikettipottal</option>
+							 							  <option>Moovattumugham</option>
+							 							  <option>Mukkampala</option>
+							 							  <option>Mulachel</option>
+							 							  <option>Mulagumoodu</option>
+							 							  <option>Mulankuzhi</option>
+							 							  <option>Mullanginavilai</option>
+							 							  <option>Munchirai</option>
+							 							  <option>Muttom</option>
+							 							  <option>Nagercoil</option>
+							 							  <option>Nagercoil Bazaar</option>
+							 							  <option>Nagercoil Collectorate</option>
+							 							  <option>Nagercoil Industrial estate</option>
+							 							  <option>Nagercoil Town</option>
+							 							  <option>Nagercoil West</option>
+							 							  <option>Nallur</option>
+							 							  <option>Nallur-marthandam</option>
+							 							  <option>Nattalam</option>
+							 							  <option>Nesamony Nagar</option>
+							 							  <option>Netta</option>
+							 							  <option>Neyyoor</option>
+							 							  <option>Neyyoor West</option>
+							 							  <option>Nithiravilai</option>
+							 							  <option>North Soorankudy</option>
+							 							  <option>Oluganacheri</option>
+							 							  <option>Pacode</option>
+							 							  <option>Padanthalumoodu</option>
+							 							  <option>Padmanabhapuram Fort</option>
+							 							  <option>Painkulam</option>
+							 							  <option>Palapalam</option>
+							 							  <option>Palavilai</option>
+							 							  <option>Palkulam</option>
+							 							  <option>pallam</option>
+							 							  <option>Palliyadi</option>
+							 							  <option>Palukal</option>
+							 							  <option>Parakkai</option>
+							 							  <option>Parvathipuram</option>
+							 							  <option>Pathukani</option>
+							 							  <option>Pazhavilai</option>
+							 							  <option>Pechchipparai</option>
+							 							  <option>Peruvilai</option>
+							 							  <option>Peyankuzhi</option>
+							 							  <option>Ponmanai</option>
+							 							  <option>Poothurai</option>
+							 							  <option>Potraiyadi</option>
+							 							  <option>Pottakulam</option>
+							 							  <option>Pottetty</option>
+							 							  <option>Pozhikkarai</option>
+							 							  <option>Pudukadai</option>
+							 							  <option>Puliyurkurichi</option>
+							 							  <option>Puthalam</option>
+							 							  <option>Puthenthurai</option>
+							 							  <option>Putheri</option>
+							 							  <option>Rajakkamangalam</option>
+							 							  <option>Rajakkamangalamthurai</option>
+							 							  <option>Ramanthurai</option>
+							 							  <option>Ramapuram</option>
+							 							  <option>Ramavarmanchirai</option>
+							 							  <option>Ratnapuram</option>
+							 							  <option>Ritapuram</option>
+							 							  <option>S.T.mankad</option>
+							 							  <option>Sahayanagar</option>
+							 							  <option>Santhaiyadi</option>
+							 							  <option>Santhapuram</option>
+							 							  <option>Saral Agasteeswaram</option>
+							 							  <option>Sasthankcoilvilai</option>
+							 							  <option>Sooriacode</option>
+							 							  <option>South Soorankudy</option>
+							 							  <option>Suchindrum</option>
+							 							  <option>Terur</option>
+							 							  <option>Thadikarankonam</option>
+							 							  <option>Thalakulam</option>
+							 							  <option>Thamaraikulam</option>
+							 							  <option>Thazhakudy</option>
+							 							  <option>Thengamputhur</option>
+							 							  <option>Thengapattanam</option>
+							 							  <option>Therku Thamaraikulam</option>
+							 							  <option>Theruvukadai</option>
+							 							  <option>Thickanamcode</option>
+							 							  <option>Thickurichy</option>
+							 							  <option>Thirupathisaram</option>
+							 							  <option>Thiruthuvapuram</option>
+							 							  <option>Thiruvarambu</option>
+							 							  <option>Thiruvithancode></option>
+							 							  <option>Tholayavattai></option>
+							 							  <option>Thovalai</option>
+							 							  <option>Thuckalay</option>
+							 							  <option>Thumbode</option>
+							 							  <option>Thuthur</option>
+							 							  <option>Tiruparappu</option>
+							 							  <option>Tiruvattar</option>
+							 							  <option>Tittivilai</option>
+							 							  <option>Udayamarthandam</option>
+							 							  <option>Unnamalakada</option>
+							 							  <option>Urambu</option>
+							 							  <option>Vadasery</option>
+							 							  <option>Vadiveeswaram</option>
+							 							  <option>Vallavilai</option>
+							 							  <option>Vaniyakudi</option>
+							 							  <option>Vanniyur</option>
+							 							  <option>Variyoor</option>
+							 							  <option>Vazhukkamparai</option>
+							 							  <option>Veeyannur</option>
+							 							  <option>Velimalai</option>
+							 							  <option>Vellachiparai</option>
+							 							  <option>Vellamadam</option>
+							 							  <option>Vembanur</option>
+							 							  <option>Vencode</option>
+							 							  <option>Vendalicode</option>
+							 							  <option>Verkilambi</option>
+							 							  <option>Vetturnimadam</option>
+							 							  <option>Villukuri</option>
+							 							  <option>Viricode</option>
+							 							  <option>vivekanandapuram</option>
+							 							  <option>Vizhunthaiyambalam</option>
+						
+</select>   
+            </div>
+            </div>
