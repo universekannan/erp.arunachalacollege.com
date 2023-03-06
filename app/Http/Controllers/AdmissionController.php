@@ -57,8 +57,8 @@ class AdmissionController extends BaseController
 
     public function beEdit($id){
        $beedit = DB::table('admission','id as userID')->where('id',$id)->get();
-       $beedit1 = DB::table('admission_1','id as userID1')->where('id',$id)->get();
-       $beedit2 = DB::table('admission_2','id as userID2')->where('id',$id)->get();
+       $beedit1 = DB::table('admission_1','id as userID1')->where('student_id',$id)->get();
+       $beedit2 = DB::table('admission_2','id as userID2')->where('student_id',$id)->get();
 
        $managedegree = DB::table('degree')->orderBy('id','Asc')->get();
        $department   = DB::table('department')->where('parent', '=', 1)->orderBy('id','Asc')->get();
@@ -96,8 +96,9 @@ class AdmissionController extends BaseController
         'first_name'                  =>   $request->first_name,
         'last_name'                   =>   $request->last_name,
         'father_name'                 =>   $request->father_name,
+        'degree_id'                   =>   $request->degree_id,
         'father_job'                  =>   $request->father_job,
-		'department_name'             =>   $request->department_name,
+		'department_id'               =>   $request->department_id,
         'gender'                      =>   $request->gender,
         'mobile'                      =>   $request->mobile,
         'father_no'                   =>   $request->father_no,
@@ -222,7 +223,7 @@ return redirect('/admission')->with('success', 'Added Student Successfully'); }
         'email'                       =>   $request->email,
         'profile_photo'               =>   $request->profile_photo,
         'status'                      =>   $request->status,
-        'updated_at'              =>   date('Y-m-d H:i:s'),
+        'updated_at'                  =>   date('Y-m-d H:i:s'),
     ]);
 
     return redirect('/admission')->with('success', 'Updated Successfully'); 
