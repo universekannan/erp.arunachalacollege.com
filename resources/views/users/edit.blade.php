@@ -1414,6 +1414,7 @@
    </section>
 </div>
 
+
 <div class="modal fade" id="adduser">
 <form action="{{url('/add_educations')}}" method="post">
 {{ csrf_field() }}
@@ -1426,7 +1427,7 @@
 </button>
 </div>
                <div class="modal-body">
-                  <input value="{{ $managingedituserlist->userID }}" type="hidden" class="form-control-3" name="user_id"/>
+                  <input value="{{ $managingedituser->userID }}" type="hidden" class="form-control-3" name="user_id"/>
                 <div class="row">
                 <div class="col-md-6">  
 				        <div class="form-group row">
