@@ -203,7 +203,7 @@
                                  <div class="form-group row">
                                     <label for="whether_first_graduate" class="col-sm-4 col-form-label"><span style="color:red"></span>Whether First Graduate</label>
                                     <div class="col-sm-8">
-                                       <input value="{{ $beedit1->whether_first_graduate }}" type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success">
+                                       <input value="{{ $beedit1->whether_first_graduate }}" type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success" data-on-text="Yes" data-off-text="No">
                                     </div>
                                  </div>
                                  <div class="form-group row">
@@ -463,7 +463,7 @@
                                  <div class="form-group row">
                                     <label for="hostel_accomadation" class="col-sm-6 col-form-label"><span style="color:red"></span>Hostel Accomodation Required</label>
                                     <div class="col-sm-6">
-                                       <input value="{{ $beedit2->hostel_accomadation }}" type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success">
+                                       <input value="{{ $beedit2->hostel_accomadation }}" type="checkbox" name="my-checkbox" data-on-text="Yes" checked data-bootstrap-switch data-off-color="danger" data-off-text="No" data-on-color="success">
                                     </div>
                                  </div>
                               </div>
@@ -471,7 +471,7 @@
                                  <div class="form-group row">
                                     <label for="college_bus_accomadation" class="col-sm-6 col-form-label"><span style="color:red"></span>College Bus Facility Required</label>
                                     <div class="col-sm-6">
-                                       <input value="{{ $beedit2->college_bus_accomadation }}" type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success">
+                                       <input value="{{ $beedit2->college_bus_accomadation }}" type="checkbox" name="my-checkbox" data-on-text="Yes" checked data-bootstrap-switch data-off-color="danger" data-off-text="No" data-on-color="success">
                                     </div>
                                  </div>
                               </div>

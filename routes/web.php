@@ -86,7 +86,7 @@ Route::get('/', function () {
     Route::get('/admission/meedit/{id}', 'App\Http\Controllers\AdmissionController@meEdit');
     Route::get('/admission/mbaedit/{id}', 'App\Http\Controllers\AdmissionController@mbaEdit');
     Route::get('/admission/mcaedit/{id}', 'App\Http\Controllers\AdmissionController@mcaEdit');
-    Route::get('/getdepartment', 'App\Http\Controllers\AdmissionController@getdepartment');
+    Route::Post('/getdepartment', 'App\Http\Controllers\AdmissionController@getdepartment');
     Route::post('/edit_admission', 'App\Http\Controllers\AdmissionController@editAdmission');
     Route::post('/edit_admission1', 'App\Http\Controllers\AdmissionController@editAdmission1');
     Route::post('/edit_admission2', 'App\Http\Controllers\AdmissionController@editAdmission2');
