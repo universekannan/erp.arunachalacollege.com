@@ -350,42 +350,42 @@
 							      <tr>
                                     <td>1</td>
                                     <td>Tamil / Malayalam</td>
-                                    <td><input  required="requiered" type="text" class="form-control" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
-                                    <td><input required="requiered" type="text" class="form-control" name="tamil_malayalam_marks_obtained" id="tamil_malayalam_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
-                                    <td><input required="requiered" type="text" class="form-control" name="tamil_malayalam_percentage" id="tamil_malayalam_percentage" maxlength="50" placeholder="Per%"></td>
+                                    <td><input value="{{ $beedit2->max_marks }}"  required="requiered" type="text" class="form-control" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
+                                    <td><input value="{{ $beedit2->tamil_malayalam_marks_obtained }}" required="requiered" type="text" class="form-control" name="tamil_malayalam_marks_obtained" id="tamil_malayalam_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
+                                    <td><input value="{{ $beedit2->tamil_malayalam_percentage }}" required="requiered" type="text" class="form-control" name="tamil_malayalam_percentage" id="tamil_malayalam_percentage" maxlength="50" placeholder="Per%"></td>
                                  </tr>
 								   <tr>
                                     <td>2</td>
                                     <td>English</td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="english_marks_obtained" id="english_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="english_percentage" id="english_percentage" maxlength="50" placeholder="Per%"></td>
+                                    <td><input value="{{ $beedit2->max_marks }}" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks1" maxlength="50" placeholder="Max Marks"></td>
+                                    <td><input value="{{ $beedit2->english_marks_obtained }}" required="requiered" type="text" class="form-control" name="english_marks_obtained" id="english_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
+                                    <td><input value="{{ $beedit2->english_percentage }}" required="requiered" type="text" class="form-control" name="english_percentage" id="english_percentage" maxlength="50" placeholder="Per%"></td>
                                  </tr>
 								   <tr>
                                     <td>3</td>
                                     <td>Mathematics</td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="mathematics_marks_obtained" id="mathematics_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="mathematics_percentage" id="mathematics_percentage" maxlength="50" placeholder="Per%"></td>
+                                    <td><input value="{{ $beedit2->max_marks }}" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks2" maxlength="50" placeholder="Max Marks"></td>
+                                    <td><input value="{{ $beedit2->mathematics_marks_obtained }}" required="requiered" type="text" class="form-control" name="mathematics_marks_obtained" id="mathematics_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
+                                    <td><input value="{{ $beedit2->mathematics_percentage }}" required="requiered" type="text" class="form-control" name="mathematics_percentage" id="mathematics_percentage" maxlength="50" placeholder="Per%"></td>
                                  </tr>
 								 <tr>
                                     <td>4</td>
                                     <td>Physics</td>
-                                    <td><input value="{{ $beedit2->max_marks }}" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
+                                    <td><input value="{{ $beedit2->max_marks }}" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks3" maxlength="50" placeholder="Max Marks"></td>
                                     <td><input value="{{ $beedit2->physics_marks_obtained }}" required="requiered" type="text" class="form-control" name="physics_marks_obtained" id="physics_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
                                     <td><input value="{{ $beedit2->physics_percentage }}" required="requiered" type="text" class="form-control" name="physics_percentage" id="physics_percentage" maxlength="50" placeholder="Per%"></td>
                                  </tr>
                                  <tr>
                                     <td>5</td>
                                     <td>Chemistry</td>
-                                    <td><input value="{{ $beedit2->max_marks }}" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
+                                    <td><input value="{{ $beedit2->max_marks }}" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks4" maxlength="50" placeholder="Max Marks"></td>
                                     <td><input value="{{ $beedit2->chemistry_marks_obtained }}" required="requiered" type="text" class="form-control" name="chemistry_marks_obtained" id="chemistry_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
                                     <td><input value="{{ $beedit2->chemistry_percentage }}" required="requiered" type="text" class="form-control" name="chemistry_percentage" id="chemistry_percentage" maxlength="50" placeholder="Per%"></td>
                                  </tr>
                                  <tr>
                                     <td>6</td>
                                     <td>Biology / Computer Science</td>
-                                    <td><input value="{{ $beedit2->max_marks }}" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
+                                    <td><input value="{{ $beedit2->max_marks }}" required="requiered" type="text" class="form-control" name="max_marks" id="max_marks5" maxlength="50" placeholder="Max Marks"></td>
                                     <td><input value="{{ $beedit2->biology_computer_marks_obtained }}" required="requiered" type="text" class="form-control" name="biology_computer_marks_obtained" id="biology_computer_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
                                     <td><input value="{{ $beedit2->biology_computer_percentage }}" required="requiered" type="text" class="form-control" name="biology_computer_percentage" id="biology_computer_percentage" maxlength="50" placeholder="Per%"></td>
                                  </tr>
@@ -406,12 +406,12 @@
                               <tbody>
                                  <tr>
                                     <td>Total Marks</td>
-                                    <td><input  required="requiered" type="text" class="form-control" name="mathematics_marks" id="mathematics_marks" placeholder="(Out Of 200)"></td>
-                                    <td><input  required="requiered" type="text" class="form-control" name="physics_marks_obtained" id="physics_marks"  placeholder="(Out Of 200)"></td>
-                                    <td><input  required="requiered" type="text" class="form-control" name="chemistry_marks_obtained" id="chemistry_marks" placeholder="(Out Of 200)"></td>
-                                    <td><input  required="requiered" type="text" class="form-control" 
+                                    <td><input value="{{ $beedit2->mathematics_marks_obtained }}" required="requiered" type="text" class="form-control" name="mathematics_marks_obtained" id="mathematics_marks" placeholder="(Out Of 200)"></td>
+                                    <td><input value="{{ $beedit2->physics_marks_obtained }}" required="requiered" type="text" class="form-control" name="physics_marks_obtained" id="physics_marks"  placeholder="(Out Of 200)"></td>
+                                    <td><input value="{{ $beedit2->chemistry_marks_obtained }}" required="requiered" type="text" class="form-control" name="chemistry_marks_obtained" id="chemistry_marks" placeholder="(Out Of 200)"></td>
+                                    <td><input value="{{ $beedit2->total_marks }}" required="requiered" type="text" class="form-control" 
                                        name="total_marks" id="total_marks" maxlength="50" placeholder="(Out Of 600)"></td>
-                                    <td><input  required="requiered" type="text" class="form-control" name="total_marks_per" id="total_marks_per" maxlength="50" placeholder="(Total/6)"></td>
+                                    <td><input value="{{ $beedit2->total_marks_per }}" required="requiered" type="text" class="form-control" name="total_marks_per" id="total_marks_per" maxlength="50" placeholder="(Total/6)"></td>
                                  </tr>
                               </tbody>
                            </table>
@@ -429,10 +429,10 @@
                               <tbody>
                                  <tr>
                                     <td>Cut Off Mark</td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="cut_of_mathematics" id="cut_of_mathematics" maxlength="50" placeholder="(Out of 100)"></td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="cut_of_physics" id="cut_of_physics" maxlength="50" placeholder="(Out of 50)"></td>
-                                    <td><input value="" required="requiered" type="text" class="form-control" name="cut_of_chemestry" id="cut_of_chemestry" maxlength="50" placeholder="(Out of 50)"></td>
-                                    <td><input  required="requiered" type="text" class="form-control" name="cut_of_mark_total" id="cut_of_mark_total" maxlength="50" placeholder="(Out of 200)"></td>
+                                    <td><input value="{{ $beedit2->cut_of_mathematics }}" required="requiered" type="text" class="form-control" name="cut_of_mathematics" id="cut_of_mathematics" maxlength="50" placeholder="(Out of 100)"></td>
+                                    <td><input value="{{ $beedit2->cut_of_physics }}" required="requiered" type="text" class="form-control" name="cut_of_physics" id="cut_of_physics" maxlength="50" placeholder="(Out of 50)"></td>
+                                    <td><input value="{{ $beedit2->cut_of_chemestry }}" required="requiered" type="text" class="form-control" name="cut_of_chemestry" id="cut_of_chemestry" maxlength="50" placeholder="(Out of 50)"></td>
+                                    <td><input value="{{ $beedit2->cut_of_mark_total }}" required="requiered" type="text" class="form-control" name="cut_of_mark_total" id="cut_of_mark_total" maxlength="50" placeholder="(Out of 200)"></td>
                                  </tr>
                               </tbody>
                            </table>

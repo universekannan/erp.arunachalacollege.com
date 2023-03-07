@@ -4289,47 +4289,47 @@ $(document).ready(function(){
   });
 </script>
 
-<script type="text/javascript">
+<script>
 
   $(function() {
-  $("#max_marks, #tamil_malayalam_marks_obtained").keyup(function() { // input on change
-    var result = (parseFloat(parseInt($("#tamil_malayalam_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10)) *100;
-    $('#tamil_malayalam_percentage').val(result||''); 
+  $("#max_marks, #tamil_malayalam_marks_obtained").keyup(function() { 
+    var result1 = (parseFloat(parseInt($("#tamil_malayalam_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10) *100).toFixed();
+    $('#tamil_malayalam_percentage').val((isNaN(result1) ? '' : result1)); 
   })
 });
 
   $(function() {
-  $("#max_marks, #english_marks_obtained").keyup(function() { // input on change
-    var result = (parseFloat(parseInt($("#english_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10)) *100;
-    $('#english_percentage').val(result||''); 
+  $("#max_marks1, #english_marks_obtained").keyup(function() { 
+    var result2 = (parseFloat(parseInt($("#english_marks_obtained").val(), 10) )/ parseInt($("#max_marks1").val(), 10) *100).toFixed();
+    $('#english_percentage').val((isNaN(result2) ? '' : result2)); 
   })
 });
 
   $(function() {
-  $("#max_marks, #mathematics_marks_obtained").keyup(function() { // input on change
-    var result = (parseFloat(parseInt($("#mathematics_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10)) *100;
-    $('#mathematics_percentage').val(result||''); 
+  $("#max_marks2, #mathematics_marks_obtained").keyup(function() { 
+    var result3 = (parseFloat(parseInt($("#mathematics_marks_obtained").val(), 10) )/ parseInt($("#max_marks2").val(), 10) *100).toFixed();
+    $('#mathematics_percentage').val((isNaN(result3) ? '' : result3)); 
   })
 });
 
   $(function() {
-  $("#max_marks, #physics_marks_obtained").keyup(function() { // input on change
-    var result = (parseFloat(parseInt($("#physics_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10)) *100;
-    $('#physics_percentage').val(result||''); 
+  $("#max_marks3, #physics_marks_obtained").keyup(function() { 
+    var result4 = (parseFloat(parseInt($("#physics_marks_obtained").val(), 10) )/ parseInt($("#max_marks3").val(), 10) *100).toFixed();
+    $('#physics_percentage').val((isNaN(result4) ? '' : result4)); 
   })
 });
 
   $(function() {
-  $("#max_marks, #chemistry_marks_obtained").keyup(function() { // input on change
-    var result = (parseFloat(parseInt($("#chemistry_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10)) *100;
-    $('#chemistry_percentage').val(result||''); 
+  $("#max_marks4, #chemistry_marks_obtained").keyup(function() { 
+    var result5 = (parseFloat(parseInt($("#chemistry_marks_obtained").val(), 10) )/ parseInt($("#max_marks4").val(), 10) *100).toFixed();
+    $('#chemistry_percentage').val((isNaN(result5) ? '' : result5)); 
   })
 });
 
   $(function() {
-  $("#max_marks, #biology_computer_marks_obtained").keyup(function() { // input on change
-    var result = (parseFloat(parseInt($("#biology_computer_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10)) *100;
-    $('#biology_computer_percentage').val(result||''); 
+  $("#max_marks5, #biology_computer_marks_obtained").keyup(function() { // input on change
+    var result6 = (parseFloat(parseInt($("#biology_computer_marks_obtained").val(), 10) )/ parseInt($("#max_marks5").val(), 10) *100).toFixed();
+    $('#biology_computer_percentage').val((isNaN(result6) ? '' : result6)); 
   })
 });
 
