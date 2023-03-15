@@ -350,7 +350,7 @@
 							      <tr>
                                     <td>1</td>
                                     <td>Tamil / Malayalam</td>
-                                    <td><input value="{{ $beedit2->max_marks }}"  required="requiered" type="text" class="form-control" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
+                                    <td><input value="{{ $beedit2->max_marks }}"  required="requiered" type="text" class="form-control number" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
                                     <td><input value="{{ $beedit2->tamil_malayalam_marks_obtained }}" required="requiered" type="text" class="form-control" name="tamil_malayalam_marks_obtained" id="tamil_malayalam_marks_obtained" maxlength="50" placeholder="Enter Marks"></td>
                                     <td><input value="{{ $beedit2->tamil_malayalam_percentage }}" required="requiered" type="text" class="form-control" name="tamil_malayalam_percentage" id="tamil_malayalam_percentage" maxlength="50" placeholder="Per%"></td>
                                  </tr>
@@ -406,7 +406,7 @@
                               <tbody>
                                  <tr>
                                     <td>Total Marks</td>
-                                    <td><input value="{{ $beedit2->mathematics_marks_obtained }}" required="requiered" type="text" class="form-control" name="mathematics_marks_obtained" id="mathematics_marks" placeholder="(Out Of 200)"></td>
+                                    <td><input disabled value="{{ $beedit2->mathematics_marks_obtained }}" required="requiered" type="text" class="form-control" name="mathematics_marks_obtained" id="mathematics_marks" placeholder="(Out Of 200)"></td>
                                     <td><input value="{{ $beedit2->physics_marks_obtained }}" required="requiered" type="text" class="form-control" name="physics_marks_obtained" id="physics_marks"  placeholder="(Out Of 200)"></td>
                                     <td><input value="{{ $beedit2->chemistry_marks_obtained }}" required="requiered" type="text" class="form-control" name="chemistry_marks_obtained" id="chemistry_marks" placeholder="(Out Of 200)"></td>
                                     <td><input value="{{ $beedit2->total_marks }}" required="requiered" type="text" class="form-control" 

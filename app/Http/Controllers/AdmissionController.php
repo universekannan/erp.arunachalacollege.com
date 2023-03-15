@@ -36,7 +36,10 @@ class AdmissionController extends BaseController
 
     public function manageAdmission(){
 
-       $manageadmission = DB::table('admission')->orderBy('id','Asc')->get();
+      $manageadmission = DB::table('admission')->select('admission.*','degree.*','department.*','admission.id as userID')
+       ->Join('degree', 'degree.id', '=', 'admission.degree_id')
+       ->Join('department', 'department.id', '=', 'admission.department_id')
+       ->orderBy('admission.id','Asc')->get();
        $managedegree = DB::table('degree')->orderBy('id','Asc')->get();
 	   $department   = DB::table('department')->orderBy('id','Asc')->get();
 	   $admissionacademic = DB::table('academic')->where('status', '=','1')->orderBy('id','Asc')->get();
@@ -90,7 +93,9 @@ class AdmissionController extends BaseController
 }
 
          public function addAdmission(Request $request){
-
+          
+          $department = $request->get('department_id');
+          //echo $department;die;
     $adduser = DB::table('admission')->insertGetId([
 
         'first_name'                  =>   $request->first_name,
@@ -98,7 +103,7 @@ class AdmissionController extends BaseController
         'father_name'                 =>   $request->father_name,
         'degree_id'                   =>   $request->degree_id,
         'father_job'                  =>   $request->father_job,
-		'department_id'               =>   $request->department_id,
+		'department_id'               =>   $department,
         'gender'                      =>   $request->gender,
         'mobile'                      =>   $request->mobile,
         'father_no'                   =>   $request->father_no,

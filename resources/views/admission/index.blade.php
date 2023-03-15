@@ -68,13 +68,13 @@
                            @endif 
                 <td>
 				 @if($manageadmissionlist->degree_id == 1)
-                      <a href="{{url('/admission/beedit/'.$manageadmissionlist->id)}}" class="btn btn-default fa fa-eye" > Edit</a>
+                      <a href="{{url('/admission/beedit/'.$manageadmissionlist->userID)}}" class="btn btn-default fa fa-eye" > Edit</a>
 				 @elseif($manageadmissionlist->degree_id == 2)
-                      <a href="{{url('/admission/meedit/'.$manageadmissionlist->id)}}" class="btn btn-default fa fa-eye" > Edit</a>
+                      <a href="{{url('/admission/meedit/'.$manageadmissionlist->userID)}}" class="btn btn-default fa fa-eye" > Edit</a>
 				 @elseif($manageadmissionlist->degree_id == 3)
-                      <a href="{{url('/admission/mbaedit/'.$manageadmissionlist->id)}}" class="btn btn-default fa fa-eye" > Edit</a>
+                      <a href="{{url('/admission/mbaedit/'.$manageadmissionlist->userID)}}" class="btn btn-default fa fa-eye" > Edit</a>
                            @else
-                      <a href="{{url('/admission/mcaedit/'.$manageadmissionlist->id)}}" class="btn btn-default fa fa-eye" > Edit</a>
+                      <a href="{{url('/admission/mcaedit/'.$manageadmissionlist->userID)}}" class="btn btn-default fa fa-eye" > Edit</a>
                            @endif
 						   
 		

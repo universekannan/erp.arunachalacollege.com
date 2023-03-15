@@ -4376,4 +4376,12 @@ $(document).ready(function(){
   $("input[data-bootstrap-switch]").each(function(){
       $(this).bootstrapSwitch('state', $(this).prop('checked'));
     })
+
+  
+        $('.number').keypress(function (event) {
+            var keycode = event.which;
+            if (!(event.shiftKey == false && (keycode == 8 || keycode == 37 || keycode == 39 || (keycode >= 48 && keycode <= 57)))) {
+                event.preventDefault();
+            }
+        });
 </script>
