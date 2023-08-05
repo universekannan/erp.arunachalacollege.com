@@ -4292,39 +4292,39 @@ $(document).ready(function(){
 <script>
 
   $(function() {
-  $("#max_marks, #tamil_malayalam_marks_obtained").keyup(function() { 
-    var result1 = (parseFloat(parseInt($("#tamil_malayalam_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10) *100).toFixed();
-    $('#tamil_malayalam_percentage').val((isNaN(result1) ? '' : result1)); 
-  })
-});
+    $("#max_marks, #tamil_malayalam_marks_obtained").keyup(function() { 
+      var result1 = (parseFloat(parseInt($("#tamil_malayalam_marks_obtained").val(), 10) )/ parseInt($("#max_marks").val(), 10) *100).toFixed();
+      $('#tamil_malayalam_percentage').val((isNaN(result1) ? '' : result1)); 
+    })
+  });
 
   $(function() {
-  $("#max_marks1, #english_marks_obtained").keyup(function() { 
-    var result2 = (parseFloat(parseInt($("#english_marks_obtained").val(), 10) )/ parseInt($("#max_marks1").val(), 10) *100).toFixed();
-    $('#english_percentage').val((isNaN(result2) ? '' : result2)); 
-  })
-});
+    $("#max_marks1, #english_marks_obtained").keyup(function() { 
+      var result2 = (parseFloat(parseInt($("#english_marks_obtained").val(), 10) )/ parseInt($("#max_marks1").val(), 10) *100).toFixed();
+      $('#english_percentage').val((isNaN(result2) ? '' : result2)); 
+    })
+  });
 
   $(function() {
-  $("#max_marks2, #mathematics_marks_obtained").keyup(function() { 
-    var result3 = (parseFloat(parseInt($("#mathematics_marks_obtained").val(), 10) )/ parseInt($("#max_marks2").val(), 10) *100).toFixed();
-    $('#mathematics_percentage').val((isNaN(result3) ? '' : result3)); 
-  })
-});
+    $("#max_marks2, #mathematics_marks_obtained").keyup(function() { 
+      var result3 = (parseFloat(parseInt($("#mathematics_marks_obtained").val(), 10) )/ parseInt($("#max_marks2").val(), 10) *100).toFixed();
+      $('#mathematics_percentage').val((isNaN(result3) ? '' : result3)); 
+    })
+  });
 
   $(function() {
-  $("#max_marks3, #physics_marks_obtained").keyup(function() { 
-    var result4 = (parseFloat(parseInt($("#physics_marks_obtained").val(), 10) )/ parseInt($("#max_marks3").val(), 10) *100).toFixed();
-    $('#physics_percentage').val((isNaN(result4) ? '' : result4)); 
-  })
-});
+    $("#max_marks3, #physics_marks_obtained").keyup(function() { 
+      var result4 = (parseFloat(parseInt($("#physics_marks_obtained").val(), 10) )/ parseInt($("#max_marks3").val(), 10) *100).toFixed();
+      $('#physics_percentage').val((isNaN(result4) ? '' : result4)); 
+    })
+  });
 
   $(function() {
-  $("#max_marks4, #chemistry_marks_obtained").keyup(function() { 
-    var result5 = (parseFloat(parseInt($("#chemistry_marks_obtained").val(), 10) )/ parseInt($("#max_marks4").val(), 10) *100).toFixed();
-    $('#chemistry_percentage').val((isNaN(result5) ? '' : result5)); 
-  })
-});
+    $("#max_marks4, #chemistry_marks_obtained").keyup(function() { 
+      var result5 = (parseFloat(parseInt($("#chemistry_marks_obtained").val(), 10) )/ parseInt($("#max_marks4").val(), 10) *100).toFixed();
+      $('#chemistry_percentage').val((isNaN(result5) ? '' : result5)); 
+    })
+  });
 
   $(function() {
   $("#max_marks5, #biology_computer_marks_obtained").keyup(function() { // input on change
@@ -4356,32 +4356,39 @@ $(document).ready(function(){
 
 
       $("#total_marks").val((isNaN(total) ? '' : total));
-      var marksperc = 600;
+      var marksperc = 300;
       perc = ((total / marksperc) * 100).toFixed(2);
       $('#total_marks_per').val(perc);
     }
     );
 
-    $('#mathematics_marks_obtained, #physics_marks_obtained, #chemistry_marks_obtained').on("paste keyup  input",
+  $('#mathematics_marks_obtained, #physics_marks_obtained, #chemistry_marks_obtained').on("paste keyup  input",
 
     function () {
-      
+
       var cutoff = parseInt($("#mathematics_marks_obtained").val()) + parseFloat($("#physics_marks_obtained").val() / 2) + parseFloat($("#chemistry_marks_obtained").val() / 2);
       $("#cut_of_mark_total").val((isNaN(cutoff) ? '' : cutoff));
     }
     );
 
   </script>
-<script>
-  $("input[data-bootstrap-switch]").each(function(){
+  <script>
+    $("input[data-bootstrap-switch]").each(function(){
       $(this).bootstrapSwitch('state', $(this).prop('checked'));
     })
 
-  
-        $('.number').keypress(function (event) {
-            var keycode = event.which;
-            if (!(event.shiftKey == false && (keycode == 8 || keycode == 37 || keycode == 39 || (keycode >= 48 && keycode <= 57)))) {
-                event.preventDefault();
-            }
-        });
-</script>
+
+    $('.number').keypress(function (event) {
+      var keycode = event.which;
+      if (!(event.shiftKey == false && (keycode == 8 || keycode == 37 || keycode == 39 || (keycode >= 48 && keycode <= 57)))) {
+        event.preventDefault();
+      }
+    });
+
+    $('#max_marks').keyup(function(){
+      if ($(this).val() > 100){
+        //alert("No Marks above 100");
+        $(this).val('100');
+      }
+    });
+  </script>

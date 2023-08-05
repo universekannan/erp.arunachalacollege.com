@@ -335,7 +335,7 @@
                         {{ csrf_field() }}
                         <div class="card-body">
                            @foreach($beedit2 as $key=>$beedit2)
-                        <input value="{{ $beedit2->id }}" type="hidden" class="form-control mb-3" name="id"/>
+                       
                            <table class="table table-bordered table-hover">
                               <thead>
                                  <tr>
@@ -348,6 +348,7 @@
                               </thead>
                               <tbody>
 							      <tr>
+                               <input value="{{ $beedit2->id }}" type="hidden" class="form-control mb-3" name="student_id"/>
                                     <td>1</td>
                                     <td>Tamil / Malayalam</td>
                                     <td><input value="{{ $beedit2->max_marks }}"  required="requiered" type="text" class="form-control number" name="max_marks" id="max_marks" maxlength="50" placeholder="Max Marks"></td>
