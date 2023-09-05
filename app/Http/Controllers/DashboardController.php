@@ -39,12 +39,26 @@ class DashboardController extends BaseController
 
      /******   dashboard Start ******/
 
-        public function dashboard(){
+     public function dashboard(){
 
-
-            return view("dashboard");
-
+        $sql = " select count(*) as userscount from users where user_types_id='1,2,3,4,5' ";
+        $result = DB::select(DB::raw($sql));
+        if (count($result) > 0) {
+            $userscount = $result[0]->userscount;
         }
+        $sql = " select count(*) as studentscount from students where user_type_id='1' ";
+        $result = DB::select(DB::raw($sql));
+        if (count($result) > 0) {
+            $studentscount = $result[0]->studentscount;
+        }
+        $sql = " select count(*) as staffcount from staffs where id='id' ";
+        $result = DB::select(DB::raw($sql));
+        if (count($result) > 0) {
+            $staffcount = $result[0]->staffcount;
+        }
+    
+        return view('dashboard', compact('studentscount','staffcount','userscount'));
+}
 
     /******   dashboard end ******/
 

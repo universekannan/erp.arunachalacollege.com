@@ -16,13 +16,13 @@
 <div class="col-lg-3 col-6">
 <div class="small-box bg-info">
 <div class="inner">
-<h3>{{ $OpPatients }}</h3>
+<h3>{{ $studentscount }}</h3>
 <p>Students</p>
 </div>
 <div class="icon">
 <i class="ion ion-bag"></i>
 </div>
-<a href="patients" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+<a href="students" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
 </div>
 </div>
 
@@ -30,13 +30,13 @@
 
 <div class="small-box bg-success">
 <div class="inner">
-<h3>{{ $IpPatients }}</h3>
+<h3>{{ $staffcount }}</h3>
 <p>Staffs</p>
 </div>
 <div class="icon">
 <i class="ion ion-stats-bars"></i>
 </div>
-<a href="patients" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+<a href="staffs" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
 </div>
 </div>
 
@@ -44,13 +44,13 @@
 
 <div class="small-box bg-warning">
 <div class="inner">
-<h3>{{ $Users }}</h3>
+<h3>{{ $userscount }}</h3>
 <p>Users</p>
 </div>
 <div class="icon">
 <i class="ion ion-person-add"></i>
 </div>
-<a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+<a href="users" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
 </div>
 </div>
 
@@ -58,7 +58,7 @@
 
 <div class="small-box bg-danger">
 <div class="inner">
-<h3>{{ $Remind }}</h3>
+<h3>3</h3>
 <p>Remind</p>
 </div>
 <div class="icon">
