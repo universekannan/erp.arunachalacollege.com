@@ -38,7 +38,8 @@ Route::get('/', function () {
     Route::get('/users', 'App\Http\Controllers\UsersController@manageUsers');
     Route::post('/add_user', 'App\Http\Controllers\UsersController@addUser');
     Route::post('/add_educations', 'App\Http\Controllers\UsersController@addEducations');
-
+    Route::get('/profile', 'App\Http\Controllers\UsersController@profile');
+    
 
     Route::get('/edit/{id}', 'App\Http\Controllers\UsersController@manageEdits');
     

@@ -67,7 +67,7 @@
       <span class="dropdown-item dropdown-header">{{auth()->user()->first_name}} {{auth()->user()->last_name}}</span>
       <div class="dropdown-divider"></div>
       <div class="dropdown-item">
-         <a class="btn btn-default  text-muted text-sm" href="users/profile">Profile</a>
+         <a class="btn btn-default  text-muted text-sm" href="{{url('/profile')}}">Profile</a>
          <a class="btn btn-default float-right text-muted text-sm" href="{{url('/logout')}}">Logout</a>
          <div class="dropdown-divider"></div>
          <a href="#" class="dropdown-item dropdown-footer">
